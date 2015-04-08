@@ -40,5 +40,13 @@ Nebula 에서느 제가 발전시키고 다듬은 기능은 최신 언어들에�
 Reflection 은 객체의 속성 및 메서드를 실시간에 조회 및 엑세스 할 수 있는 기능을 제공하는 아키텍쳐입니다. 
 TodEngine 에서는 Reflection 을 Editor에서 적극 활용하여 Unity 의 Inspector 와 유사한 기능을 제공합니다.
 Unity 와 다른점은 C++을 사용한다는 것이지요. ^_^
+'''
+asdf
+'''
 
+
+## Scripting
+TodEngine 에서는 2개의 스크립트 언어를 지원합니다. Python 과 Lua 입니다.
+Python 은 대단히 방대한 양의 라이브러리를 갖고 있습니다. 이는 Tool-Oriented Dev 에서 빠른 툴 개발을 할 때 유용합니다.
+Lua 는 굉장히 빠른 스크립트 언어입니다. 근래(?)에 Lua는 LuaJIT이 나오면서 더 빨라졌습니다. 우리는 LuaJIT을 사용하여 Swift따위를 배우지 않아도 빠른 프로토타이핑 및 게임 개발을 할 수 있습니다. 단... Lua를 배워야 겠네요? ㅜ_ㅜ
 
