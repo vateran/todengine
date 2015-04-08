@@ -14,8 +14,8 @@ Realtime 3D game/visualization engine, framework, toolkit, library and tool for 
  - wxWidgets 은 code/external/wxWidgets/build/msw/wx_vc12.sln 를 VS2013 으로 로딩하여 Debug/Release 모드 컴파일
  - irrlicht 는 미리 컴파일된 lib, dll 이 존재
  - 다음과 같은 형태가 되어야함
-  /code
-    /external
+  - /code
+   -/external
       /irrlicht
         /include
         /lib
