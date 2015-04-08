@@ -15,16 +15,14 @@ Realtime 3D game/visualization engine, framework, toolkit, library and tool for 
  - irrlicht 는 미리 컴파일된 lib, dll 이 존재
  - 다음과 같은 형태가 되어야함
   - /code
-   - /external
-    - /irrlicht
-     - /include
-     - /lib
-     - ...
-    - /wxWidgets
-     - /include
-     - ...
+    - /external
+      - /irrlicht
+        - /include
+        - /lib
+        - ...
+      - /wxWidgets
+        - /include
+        - ...
   
-asd
-
 
 ## 
