@@ -1,0 +1,14 @@
+#pragma once
+#include <list>
+#include <map>
+#include <stack>
+#include <vector>
+#include <functional>
+#include <string>
+#include "wx/wx.h"
+#include "wx/listctrl.h"
+#include "wx/treectrl.h"
+#include "wx/srchctrl.h"
+#include "wx/clrpicker.h"
+#include "wx/aui/framemanager.h"
+#include "todeditor/todeditorbasetype.h"

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{feb4842f-174a-41a2-8f7b-00d6b41eb89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{ac4b0245-e51f-41bd-89de-2b98d3ecfde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{56ab21d8-ff8f-4363-a884-dcf1bd04bb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel\module">
+      <UniqueIdentifier>{421c1d7a-3286-4fe5-a319-95147fdcf368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel\object">
+      <UniqueIdentifier>{3da08aa9-a547-4739-839a-564aa16428f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel\object\property">
+      <UniqueIdentifier>{435d1532-0b98-4619-abcf-aab76dcce53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel\object\type">
+      <UniqueIdentifier>{f3987996-7119-4e93-ac2f-d0179a84b649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel\object\method">
+      <UniqueIdentifier>{936ffb59-19b0-474b-8975-2498992c321a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{619ae44d-c961-429f-ac22-3432d2418a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\jsoncpp">
+      <UniqueIdentifier>{ba36fbdb-7d28-4557-9436-a314a552a24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\rapidjson">
+      <UniqueIdentifier>{d4f28678-e9a9-4e23-a509-a9ef48b05fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\serializer">
+      <UniqueIdentifier>{36761d36-5939-48a1-86d9-3396980d2bcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\todcore\module.cc">
+      <Filter>kernel\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\builtinmodule.cc">
+      <Filter>kernel\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\method.cc">
+      <Filter>kernel\object\method</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\variables.cc">
+      <Filter>kernel\object\method</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\property.cc">
+      <Filter>kernel\object\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\typemgr.cc">
+      <Filter>kernel\object\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\type.cc">
+      <Filter>kernel\object\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\object.cc">
+      <Filter>kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\node.cc">
+      <Filter>kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\autoreleasepool.cc">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\kernel.cc">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\scriptserver.cc">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\basetype.cc">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_value.cpp">
+      <Filter>utility\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_writer.cpp">
+      <Filter>utility\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_reader.cpp">
+      <Filter>utility\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\jsoncppserializer.cc">
+      <Filter>utility\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\rapidjsonserializer.cc">
+      <Filter>utility\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\serializer.cc">
+      <Filter>utility\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\tokenizer.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\singletonmgr.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\unity_build.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\todcore\module.h">
+      <Filter>kernel\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\builtinmodule.h">
+      <Filter>kernel\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\method.h">
+      <Filter>kernel\object\method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\methodbinder.h">
+      <Filter>kernel\object\method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\variables.h">
+      <Filter>kernel\object\method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\variable.h">
+      <Filter>kernel\object\method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\params.h">
+      <Filter>kernel\object\method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\enumproperty.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\enumpropertybinder.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\property.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\simplepropertybinder.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\simpleproperty.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\stringconv.h">
+      <Filter>kernel\object\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\derive.h">
+      <Filter>kernel\object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\typeid.h">
+      <Filter>kernel\object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\typemgr.h">
+      <Filter>kernel\object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\typeobject.h">
+      <Filter>kernel\object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\type.h">
+      <Filter>kernel\object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\object.h">
+      <Filter>kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\node.h">
+      <Filter>kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\ref.h">
+      <Filter>kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\autoreleasepool.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\kernel.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\scheduler.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\scriptserver.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\macro.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\platform.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\basetype.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\reader.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\value.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\writer.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\autolink.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\config.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\features.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\forwards.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\json.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\json_batchallocator.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\json\json_tool.h">
+      <Filter>utility\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\prettywriter.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\rapidjson.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\reader.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\stringbuffer.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\writer.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\pow10.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\stack.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\strfunc.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\document.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\filestream.h">
+      <Filter>utility\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\eventdispatcher.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\jsoncppserializer.h">
+      <Filter>utility\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\rapidjsonserializer.h">
+      <Filter>utility\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\serializer.h">
+      <Filter>utility\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\tokenizer.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\string.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\singleton.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\todcore\singletonmgr.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\code\todcore\lib\json\json_valueiterator.inl">
+      <Filter>utility\jsoncpp</Filter>
+    </None>
+    <None Include="..\..\code\todcore\lib\json\json_internalarray.inl">
+      <Filter>utility\jsoncpp</Filter>
+    </None>
+    <None Include="..\..\code\todcore\lib\json\json_internalmap.inl">
+      <Filter>utility\jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

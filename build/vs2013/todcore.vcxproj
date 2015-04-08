@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\todcore\autoreleasepool.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\basetype.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\builtinmodule.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\jsoncppserializer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\kernel.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_reader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_value.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\lib\json\json_writer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\method.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\module.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\node.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\object.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\property.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\rapidjsonserializer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\scriptserver.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\serializer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\singletonmgr.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\tokenizer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\type.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\typemgr.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\code\todcore\unity_build.cc" />
+    <ClCompile Include="..\..\code\todcore\variables.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\todcore\autoreleasepool.h" />
+    <ClInclude Include="..\..\code\todcore\basetype.h" />
+    <ClInclude Include="..\..\code\todcore\builtinmodule.h" />
+    <ClInclude Include="..\..\code\todcore\derive.h" />
+    <ClInclude Include="..\..\code\todcore\enumproperty.h" />
+    <ClInclude Include="..\..\code\todcore\enumpropertybinder.h" />
+    <ClInclude Include="..\..\code\todcore\eventdispatcher.h" />
+    <ClInclude Include="..\..\code\todcore\jsoncppserializer.h" />
+    <ClInclude Include="..\..\code\todcore\kernel.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\autolink.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\config.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\features.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\forwards.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\json.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\json_batchallocator.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\json_tool.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\reader.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\value.h" />
+    <ClInclude Include="..\..\code\todcore\lib\json\writer.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\document.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\filestream.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\reader.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\..\code\todcore\lib\rapidjson\writer.h" />
+    <ClInclude Include="..\..\code\todcore\macro.h" />
+    <ClInclude Include="..\..\code\todcore\method.h" />
+    <ClInclude Include="..\..\code\todcore\methodbinder.h" />
+    <ClInclude Include="..\..\code\todcore\module.h" />
+    <ClInclude Include="..\..\code\todcore\node.h" />
+    <ClInclude Include="..\..\code\todcore\object.h" />
+    <ClInclude Include="..\..\code\todcore\params.h" />
+    <ClInclude Include="..\..\code\todcore\platform.h" />
+    <ClInclude Include="..\..\code\todcore\property.h" />
+    <ClInclude Include="..\..\code\todcore\rapidjsonserializer.h" />
+    <ClInclude Include="..\..\code\todcore\ref.h" />
+    <ClInclude Include="..\..\code\todcore\scheduler.h" />
+    <ClInclude Include="..\..\code\todcore\scriptserver.h" />
+    <ClInclude Include="..\..\code\todcore\serializer.h" />
+    <ClInclude Include="..\..\code\todcore\simpleproperty.h" />
+    <ClInclude Include="..\..\code\todcore\simplepropertybinder.h" />
+    <ClInclude Include="..\..\code\todcore\singleton.h" />
+    <ClInclude Include="..\..\code\todcore\singletonmgr.h" />
+    <ClInclude Include="..\..\code\todcore\string.h" />
+    <ClInclude Include="..\..\code\todcore\stringconv.h" />
+    <ClInclude Include="..\..\code\todcore\tokenizer.h" />
+    <ClInclude Include="..\..\code\todcore\type.h" />
+    <ClInclude Include="..\..\code\todcore\typeid.h" />
+    <ClInclude Include="..\..\code\todcore\typemgr.h" />
+    <ClInclude Include="..\..\code\todcore\typeobject.h" />
+    <ClInclude Include="..\..\code\todcore\variable.h" />
+    <ClInclude Include="..\..\code\todcore\variables.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\code\todcore\lib\json\json_internalarray.inl" />
+    <None Include="..\..\code\todcore\lib\json\json_internalmap.inl" />
+    <None Include="..\..\code\todcore\lib\json\json_valueiterator.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>todcore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IncludePath>..\..\code\;..\..\code\todcore\lib;code\todcore\lib;$(IncludePath)</IncludePath>
+    <IntDir>$(SolutionDir)..\..\intermediate\$(PlatformName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IncludePath>..\..\code\;..\..\code\todcore\lib;$(IncludePath)</IncludePath>
+    <IntDir>$(SolutionDir)..\..\intermediate\$(PlatformName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\lib\$(PlatformName)\$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\lib\$(PlatformName)\$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

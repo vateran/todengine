@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\code\todpython\todpythonscriptserver_command.cc" />
+    <ClCompile Include="..\..\code\todpython\todpythonscriptserver_func.cc" />
+    <ClCompile Include="..\..\code\todpython\todpythonscriptserver_node.cc" />
+    <ClCompile Include="..\..\code\todpython\todpythonscriptserver_object.cc" />
+    <ClCompile Include="..\..\code\todpython\unity_build.cc" />
+    <ClCompile Include="..\..\code\todpython\todpythonscriptserver.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\todpython\todpythonscriptserver.h" />
+  </ItemGroup>
+</Project>

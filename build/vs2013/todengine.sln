@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_todcore", "test_todcore.vcxproj", "{F073D251-6C66-4C85-B084-287EF72CAEB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569} = {4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todcore", "todcore.vcxproj", "{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todpython", "todpython.vcxproj", "{EBA1C4C4-721B-4BA9-B396-12EF4A63DE14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA} = {2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569} = {4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todpythonlib", "todpythonlib.vcxproj", "{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569} = {4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todeditor", "todeditor.vcxproj", "{EFE18F89-8447-4B1E-8EB2-68030E727C79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA} = {2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}
+		{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A} = {70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}
+		{E1C153F9-8A44-41DF-80A8-15ED238A1024} = {E1C153F9-8A44-41DF-80A8-15ED238A1024}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todeditorlib", "todeditorlib.vcxproj", "{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569} = {4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "todirrlichtlib", "todirrlichtlib.vcxproj", "{E1C153F9-8A44-41DF-80A8-15ED238A1024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F073D251-6C66-4C85-B084-287EF72CAEB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F073D251-6C66-4C85-B084-287EF72CAEB4}.Debug|Win32.Build.0 = Debug|Win32
+		{F073D251-6C66-4C85-B084-287EF72CAEB4}.Release|Win32.ActiveCfg = Release|Win32
+		{F073D251-6C66-4C85-B084-287EF72CAEB4}.Release|Win32.Build.0 = Release|Win32
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}.Debug|Win32.Build.0 = Debug|Win32
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}.Release|Win32.ActiveCfg = Release|Win32
+		{4BC2D8A5-23BD-49C2-83B1-6CBCB680A569}.Release|Win32.Build.0 = Release|Win32
+		{EBA1C4C4-721B-4BA9-B396-12EF4A63DE14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBA1C4C4-721B-4BA9-B396-12EF4A63DE14}.Debug|Win32.Build.0 = Debug|Win32
+		{EBA1C4C4-721B-4BA9-B396-12EF4A63DE14}.Release|Win32.ActiveCfg = Release|Win32
+		{EBA1C4C4-721B-4BA9-B396-12EF4A63DE14}.Release|Win32.Build.0 = Release|Win32
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}.Debug|Win32.Build.0 = Debug|Win32
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}.Release|Win32.ActiveCfg = Release|Win32
+		{2CEACC6F-C54C-4AB8-BF70-EAAD7BA887BA}.Release|Win32.Build.0 = Release|Win32
+		{EFE18F89-8447-4B1E-8EB2-68030E727C79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFE18F89-8447-4B1E-8EB2-68030E727C79}.Debug|Win32.Build.0 = Debug|Win32
+		{EFE18F89-8447-4B1E-8EB2-68030E727C79}.Release|Win32.ActiveCfg = Release|Win32
+		{EFE18F89-8447-4B1E-8EB2-68030E727C79}.Release|Win32.Build.0 = Release|Win32
+		{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}.Debug|Win32.Build.0 = Debug|Win32
+		{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}.Release|Win32.ActiveCfg = Release|Win32
+		{70B8D1AE-6B54-4D42-955B-E405BF9EAE1A}.Release|Win32.Build.0 = Release|Win32
+		{E1C153F9-8A44-41DF-80A8-15ED238A1024}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1C153F9-8A44-41DF-80A8-15ED238A1024}.Debug|Win32.Build.0 = Debug|Win32
+		{E1C153F9-8A44-41DF-80A8-15ED238A1024}.Release|Win32.ActiveCfg = Release|Win32
+		{E1C153F9-8A44-41DF-80A8-15ED238A1024}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
