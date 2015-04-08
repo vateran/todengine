@@ -16,13 +16,13 @@ Realtime 3D game/visualization engine, framework, toolkit, library and tool for 
  - 다음과 같은 형태가 되어야함
   - /code
    -/external
-      /irrlicht
-        /include
-        /lib
-        ...
-      /wxWidgets
-        /include
-        ...
+    -/irrlicht
+     -/include
+     -/lib
+     -...
+    -/wxWidgets
+     -/include
+     -...
   
 
 ## 
