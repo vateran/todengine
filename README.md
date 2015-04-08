@@ -31,4 +31,14 @@ TodEngine 은 Tool-Oriented Development 라는 패러다임을 구현하기 위�
 '툴을 개발하면서 게임을 개발한다.' 는 개념에서 출발합니다. 게임 프로그래밍을 해보면 툴을 개발하여 생산성을 가속시키고 싶을때가 많습니다. 예를들면 플레이어가 발사한 미사일의 궤적을 에디팅 하고 싶을때 우리는 급하면 하드코딩하거나 조금더 발전시키면 data-driven 개발하곤 합니다. 특히 하드코딩은 C++같은 환경에서는 컴파일과정을 거치기 때문에 우리의 시간을 좀먹습니다. Unity 엔진을 사용해보신분들은 아시겠지만 Script Component를 추가하면 해당 기능을 스크립트로 구현하며 Editor에서 해당 내용을 곧바로 볼수 있는 기능이 있습니다. TodEngine도 비슷한 기능을 구현하는 것입니다.
 하지만 TodEngine 은 Unity의 해당 기능을 C++또는 Python, Lua 로 접근 할 수 있다는 장점을 가지고 있습니다. (C++ 프로그래머에게만 해당되는 이야기겠죠? ^_^)
 
+## Nebula & SceneGraph & Nodes
+TodEngine 도 여타 3D엔진처럼 Scene Graph 와 유사한 Node 조합 형태를 갖고 있습니다.
+아시는분이 있을지 모르겠지만 RadonLabs 에서 nebula 라는 엔진을 개발하여 오픈소스로 공개했습니다. nubula 엔진은 굉장히 아름다운 엔진 구조를 가지고 있어서 저는 그 엔진에게서 영감을 많이 받았습니다.
+
+## Reflection
+Nebula 에서느 제가 발전시키고 다듬은 기능은 최신 언어들에서 지원하는 Reflection 아키텍쳐를 C++에서 근접하게 구현한 것입니다. 
+Reflection 은 객체의 속성 및 메서드를 실시간에 조회 및 엑세스 할 수 있는 기능을 제공하는 아키텍쳐입니다. 
+TodEngine 에서는 Reflection 을 Editor에서 적극 활용하여 Unity 의 Inspector 와 유사한 기능을 제공합니다.
+Unity 와 다른점은 C++을 사용한다는 것이지요. ^_^
+
 
